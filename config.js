@@ -5,11 +5,11 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Jade",
+    valentineName: "나윤쿵야",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
-    pageTitle: "Will You Be My Valentine? 💝",
+    pageTitle: "나윤과 민수가 결혼을 한대요. 질문에 올바른 답변을 해 도와주세요! 💝",
 
     // Floating emojis that appear in the background
     // Find more emojis at: https://emojipedia.org
@@ -22,35 +22,35 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
-            secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
+            text: "당신은 민수입니까?",                                    // First interaction
+            yesBtn: "ㅁㄹ",                                             // Text for "Yes" button
+            noBtn: "ㅗ",                                               // Text for "No" button
+            secretAnswer: "이게 진짜 버튼인데 ㅉㅉ ❤️"           // Secret hover message
         },
         second: {
-            text: "How much do you love me?",                          // For the love meter
-            startText: "This much!",                                   // Text before the percentage
-            nextBtn: "Next ❤️"                                         // Text for the next button
+            text: "민수를 얼만큼 사랑합니까",                          // For the love meter
+            startText: "이만큼 사랑해용!",                                   // Text before the percentage
+            nextBtn: "다음으로 넘어가시긔 ❤️"                                         // Text for the next button
         },
         third: {
-            text: "Will you be my Valentine on February 14th, 2025? 🌹", // The big question!
+            text: "민수와 영원을 약속하시겠습니까? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            noBtn: "ㅗ"                                                 // Text for "No" button
         }
     },
 
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "이 세상에서 당신에게 남자란 민수밖에 없군요!!?? 🥰🚀💝",  // Shows when they go past 5000%
+        high: "역시 민혁보단 민수죠! 🚀💝",              // Shows when they go past 1000%
+        normal: "구라 ㄴㄴ 🥰"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss!",
+        title: "민수민수손민수앙딱정! 🎉💝💖💝💓",
+        message: "축하합니다! 나윤과 민수가 결혼했습니다!",
         emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
     },
 
